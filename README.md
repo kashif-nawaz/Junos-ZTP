@@ -44,7 +44,7 @@ Enable dhcpd and httpd daemons:- <br/>
   * systemctl enable dhcpd --now 
   * systemctl enable httpd --now 
 
-Verify the status of dhcpd and httpd daemons by using sysemctl status <daeomon command> <br/> 
+Verify the status of dhcpd and httpd daemons by using 'sysemctl status <daeomon>' command <br/> 
 
 If Junos devices has required config in place then ZTP process should have start now <br/>
 
