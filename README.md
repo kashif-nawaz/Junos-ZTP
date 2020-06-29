@@ -49,6 +49,5 @@ Verify the status of dhcpd and httpd daemons by using sysemctl status command <b
 If Junos devices has required config in place then ZTP process should have start now <br/>
 
 Relevant Logs files inside Junos devices are:- <br/>
-  * /var/log/dhcp_logfile <br/>
   * /var/log/image_load_log <br/>
   * /var/log/op-scripit.log 
