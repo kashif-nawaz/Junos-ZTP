@@ -6,7 +6,7 @@ Supported Junos platform in factory shipped config  have got enabled dhcp client
 
 In addition to dhcp client config ; under the "chassis" stanza "auto-image-upgrade" is already enabled in factory shipped config <br/>
 
-ZTP functionality can be enabled on supported on Junos platform by issuing the command "request system zeroize" <br/>
+ZTP functionality can be enabled on supported  Junos platform by issuing the command "request system zeroize" <br/>
 
 DHCP Server levearge on dhcp option 43 (subptions  0  for Junos image file name, 1 for  Junos config file) and 3 for for file transfer mode "i.e http/ ftp/ tftp" <br/>
 
@@ -44,7 +44,7 @@ Enable dhcpd and httpd daemons:- <br/>
   * systemctl enable dhcpd --now 
   * systemctl enable httpd --now 
 
-Verify the status of dhcpd and httpd daemons by using 'sysemctl status <daeomon>' command <br/> 
+Verify the status of dhcpd and httpd daemons by using sysemctl status command <br/> 
 
 If Junos devices has required config in place then ZTP process should have start now <br/>
 
